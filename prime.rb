@@ -5,7 +5,7 @@ if num < 0 or num == 0 or num == 1
     return false
   else
   while count < 9
-    if integer % count == 0
+    if num % count == 0
       return true
     end
   end
