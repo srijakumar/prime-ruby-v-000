@@ -8,6 +8,7 @@ if num < 0 or num == 0 or num == 1
     if num % count == 0
       return true
     end
+    count = count +1
   end
 end
 end
