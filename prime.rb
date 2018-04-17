@@ -7,10 +7,11 @@ if num < 0 or num == 0 or num == 1
   while count < 9
     if num % count == 0
       return true
+    else return false
     end
     count = count +1
   end
 end
 end
 
-puts prime?(48)
+puts prime?(2)
