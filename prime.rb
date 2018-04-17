@@ -1,10 +1,13 @@
 # Add  code here!
-def prime? (integer)
-  count = 1;
+def prime? (num)
+count = 1
+if num < 0 or num == 0 or num == 1
+    return false
+  else
   while count < 9
-  do if integer % count == 0
-    return true
+    if integer % count == 0
+      return true
   end
-
 end
 end
+  
