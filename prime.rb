@@ -14,4 +14,4 @@ if num < 0 or num == 0 or num == 1
 end
 end
 
-puts prime?(2)
+puts prime?(10)
